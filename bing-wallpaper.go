@@ -435,7 +435,7 @@ func setXfceWallpaper(pic string) {
 func main() {
 	var mkt, pic, picOpts, env string
 	var loop bool
-	markets := []string{"en-US", "zh-CN", "ja-JP", "en-AU", "en-UK", "de-DE", "fr-FR", "en-NZ", "en-CA", "es-ES"}
+	markets := []string{"en-US", "zh-CN", "ja-JP", "en-AU", "en-UK", "de-DE", "fr-FR", "en-NZ", "en-CA", "es-ES", "es-XL"}
 	idx := "0"
 	// dir is used to set the location where Bing pictures of the day
 	// are stored. HOME holds the path of the current user's home directory
